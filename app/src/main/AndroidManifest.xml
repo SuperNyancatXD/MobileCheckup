@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuudachi.mobilecheckup" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rc"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyActivity2"
+            android:label="Know Your Disease"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <activity
+            android:name=".MyActivity3"
+            android:label="List of Diseases"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <activity
+            android:name=".MyActivity4"
+            android:label="Disease Detail" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".MyActivity"
+    tools:ignore="MergeRootFrame" >
+
+<fragment
+    android:name="com.example.yuudachi.mobilecheckup.Home"
+    android:id="@+id/homes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    tools:layout="@layout/fragment_my" />
+
+<!--<fragment-->
+    <!--android:name="com.example.yuudachi.mobilecheckupapp.Adddisease"-->
+    <!--android:id="@+id/adddiseases"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--tools:layout="@layout/fragment_my_activity5" />-->
+<!--<fragment-->
+    <!--android:name="com.example.yuudachi.mobilecheckupapp.DiseaseData"-->
+    <!--android:id="@+id/diseasedatas"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--tools:layout="@layout/fragment_my_activity6" />-->
+</FrameLayout>

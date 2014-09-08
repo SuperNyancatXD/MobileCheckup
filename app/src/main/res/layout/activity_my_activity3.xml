@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuudachi.mobilecheckupapp.MyActivity3">
+    <fragment
+    android:name="com.example.yuudachi.mobilecheckup.Diseaseentry"
+    android:id="@+id/disEnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    tools:layout="@layout/fragment_my_activity4" />
+    <!--<fragment-->
+        <!--android:name="com.example.yuudachi.mobilecheckupapp.Diseaseentry"-->
+        <!--android:id="@+id/disDesc"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--tools:layout="@layout/fragment_my_activity7" />-->
+</RelativeLayout>

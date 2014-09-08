@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileCheckUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cu">Checkup</string>
+    <string name="de">Disease Entry</string>
+    <string name="exit">Exit</string>
+    <string name="s">Symptoms</string>
+    <string name="los">List of Signs</string>
+    <string name="lopd">List of possible disease</string>
+    <string name="wtd">What To Do:</string>
+    <string name="back">Back</string>
+    <string name="as2">Add Sign</string>
+    <string name="ca">Cancel</string>
+    <string name="nm">Name</string>
+    <string name="as">Add Symptom</string>
+    <string name="ok">OK</string>
+    <string name="ad">Add Disease</string>
+    <string name="title_activity_my_activity2">MyActivity2</string>
+    <string name="title_activity_my_activity3">MyActivity3</string>
+    <string name="title_activity_my_activity4">MyActivity4</string>
+    <string name="title_activity_my_activity5">MyActivity5</string>
+    <string name="title_activity_my_activity6">MyActivity6</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="SymptomList">
+        <item>Abdominal Pain</item>
+        <item>Absence of Speech (Loss of Speech)</item>
+        <item>Acid Reflux (GERD) Symptoms and Signs</item>
+        <item>Acute Sinusitis Symptoms and Signs</item>
+        <item>ADHD (Inattention)</item>
+        <item>ADHD Symptoms and Signs</item>
+        <item>Alcohol Withdrawal Symptoms and Signs</item>
+        <item>Allergy</item>
+        <item>Altered Mental Status</item>
+        <item>Alzheimer\'s Disease Symptoms and Signs</item>
+        <item>Anal Itching</item>
+        <item>Anemia</item>
+        <item>Angular Cheilitis Symptoms and Signs</item>
+        <item>Ankle Pain</item>
+        <item>Anxiety</item>
+        <item>Aphasia (Loss of Speech)</item>
+        <item>Appendicitis Symptoms and Signs</item>
+        <item>Arm Pain</item>
+        <item>Asthma Symptoms and Signs</item>
+        <item>Attention Deficit (Inattention)</item>
+        <item>Autism Symptoms and Signs</item>
+        <item>Back Pain</item>
+        <item>Bad Breath</item>
+        <item>Bad Taste in the Mouth</item>
+        <item>Beau\'s Lines</item>
+        <item>Behavior Disorder (Unusual Behavior)</item>
+        <item>Benign Positional Vertigo Symptoms and Signs</item>
+        <item>Bipolar Disorder Symptoms and Signs</item>
+        <item>Bladder Infection Symptoms and Signs</item>
+        <item>Bleeding Gums</item>
+        <item>Blisters</item>
+        <item>Blood Clot Symptoms and Signs</item>
+        <item>Blood in Semen</item>
+        <item>Blood In Urine</item>
+        <item>Bloody Nose</item>
+        <item>Bloody Sputum</item>
+        <item>Blunted Affect (Flat Affect)</item>
+        <item>Blurred Vision</item>
+        <item>Bowel Incontinence (Fecal Incontinence)</item>
+        <item>Brain Aneurysm Symptoms and Signs</item>
+        <item>Brain Tumor Symptoms and Signs</item>
+        <item>Breast Cancer Symptoms and Signs</item>
+        <item>Breast Discharge</item>
+        <item>Breast Lumps</item>
+        <item>Breast Pain</item>
+        <item>Brittle Nails</item>
+        <item>Bronchitis Symptoms and Signs</item>
+        <item>Bumps on Skin</item>
+        <item>Burning Urination</item>
+        <item>Buttock Pain</item>
+        <item>Cancer, Throat (Throat Cancer Symptoms and Signs)</item>
+        <item>Carbon Monoxide Poisoning Symptoms and Signs</item>
+        <item>Cat Scratch Disease Symptoms and Signs</item>
+        <item>Catatonia (Catatonic Behavior)</item>
+        <item>Cellulitis Symptoms and Signs</item>
+        <item>Cervical Cancer Symptoms and Signs</item>
+        <item>Chest Pain</item>
+        <item>Chills</item>
+        <item>Chlamydia Symptoms and Signs</item>
+        <item>Chronic Fatigue Syndrome Symptoms and Signs</item>
+        <item>Chronic Pain</item>
+        <item>Chronic Sore Throat Symptoms and Signs</item>
+        <item>Cloudy Urine</item>
+        <item>Coccydynia</item>
+        <item>Cold</item>
+        <item>Cold Feet</item>
+        <item>Cold Fingers</item>
+        <item>Cold Hands</item>
+        <item>Colitis Symptoms and Signs</item>
+        <item>Colon Cancer Symptoms and Signs</item>
+        <item>Confusion</item>
+        <item>Constipation</item>
+        <item>Contact Dermatitis Symptoms and Signs</item>
+        <item>COPD Symptoms and Signs</item>
+        <item>Cough</item>
+        <item>Cyanosis/Turning Blue</item>
+        <item>Cystic Fibrosis Symptoms and Signs</item>
+        <item>Dark Circles Under the Eyes</item>
+        <item>Dark Urine</item>
+        <item>Decreased Appetite</item>
+        <item>Dehydration Symptoms and Signs</item>
+        <item>Delusions</item>
+        <item>Dengue Symptoms and Signs</item>
+        <item>Depigmentation of Skin</item>
+        <item>Depression</item>
+        <item>Diabetes Symptoms and Signs</item>
+        <item>Diarrhea</item>
+        <item>Difficulty Concentrating</item>
+        <item>Difficulty Urinating</item>
+        <item>Difficulty With Speech</item>
+        <item>Dilated Pupils (Mydriasis)</item>
+        <item>Diogenes Syndrome (Self-Neglect)</item>
+        <item>Discharge From Penis (Penile Discharge)</item>
+        <item>Distended Stomach (Abdominal Distention)</item>
+        <item>Diverticulitis Symptoms and Signs</item>
+        <item>Dizziness</item>
+        <item>Double Vision</item>
+        <item>Drainage of Pus</item>
+        <item>Drooling</item>
+        <item>Dry Eye</item>
+        <item>Dry Mouth</item>
+        <item>Dry Skin</item>
+        <item>Dyspepsia</item>
+        <item>Dysphagia</item>
+        <item>Earache</item>
+        <item>Easy Bruising</item>
+        <item>Ebola Virus Disease Symptoms and Signs</item>
+        <item>Elbow Pain</item>
+        <item>Emotional Disorder (Inability to Regulate Emotions)</item>
+        <item>Endocarditis Symptoms and Signs</item>
+        <item>Enlarged Heart</item>
+        <item>Euphoria</item>
+        <item>Excessive Sweating</item>
+        <item>Eye Discharge</item>
+        <item>Eye Pain</item>
+        <item>Eye Twitch</item>
+        <item>Fainting</item>
+        <item>Fatigue and Tiredness</item>
+        <item>Fecal Incontinence</item>
+        <item>Fever</item>
+        <item>Fibromyalgia Symptoms and Signs</item>
+        <item>Finger Pain</item>
+        <item>Flaky Scalp</item>
+        <item>Flat Affect</item>
+        <item>Flu</item>
+        <item>Fluctuating Mood (Mood Swings)</item>
+        <item>Foot Pain</item>
+        <item>Frequent Urination</item>
+        <item>Gallbladder Attack Symptoms and Signs</item>
+        <item>Gas</item>
+        <item>Gastritis Symptoms and Signs</item>
+        <item>Generalized Anxiety Disorder Symptoms and Signs</item>
+        <item>Giardiasis Symptoms and Signs</item>
+        <item>Gout Symptoms and Signs</item>
+        <item>Hair Loss</item>
+        <item>Hairy Tongue</item>
+        <item>Hallucinations</item>
+        <item>Hand Pain</item>
+        <item>Hand, Foot, and Mouth Disease Symptoms and Signs</item>
+        <item>Headache</item>
+        <item>Hearing Loss</item>
+        <item>Heart Attack in Women Symptoms and Signs</item>
+        <item>Heart Disease Symptoms and Signs</item>
+        <item>Heartburn</item>
+        <item>Heel Pain</item>
+        <item>Hepatitis C (HCV) Symptoms and Signs</item>
+        <item>Herpes Symptoms and Signs</item>
+        <item>Hiatal Hernia Symptoms and Signs</item>
+        <item>High Blood Pressure Symptoms and Signs</item>
+        <item>Hip Pain</item>
+        <item>HIV Infection Symptoms and Signs</item>
+        <item>Hoarseness</item>
+        <item>Hot Flashes</item>
+        <item>Hyperactivity</item>
+        <item>Hyperthermia Symptoms and Signs</item>
+        <item>Hyperthyroidism Symptoms and Signs</item>
+        <item>Hyperventilation</item>
+        <item>Hypocalcemia Symptoms and Signs</item>
+        <item>Hypoglycemia Symptoms and Signs</item>
+        <item>Hypopituitarism Symptoms and Signs</item>
+        <item>Hypothermia Symptoms and Signs</item>
+        <item>Hypothyroidism Symptoms and Signs</item>
+        <item>Impotence</item>
+        <item>Inability to Regulate Emotions</item>
+        <item>Inattention</item>
+        <item>Incontinence, Urine</item>
+        <item>Increased Appetite</item>
+        <item>Infectious Mononucleosis (Mono) Symptoms and Signs</item>
+        <item>Infertility</item>
+        <item>Insomnia</item>
+        <item>Interstitial Cystitis Symptoms and Signs</item>
+        <item>Irritable Bowel Syndrome (IBS) Symptoms and Signs</item>
+        <item>Itch</item>
+        <item>Jaundice</item>
+        <item>Jaw Pain</item>
+        <item>Joint Cracking</item>
+        <item>Joint Pain</item>
+        <item>Joint Stiffness</item>
+        <item>Kawasaki Disease Symptoms and Signs</item>
+        <item>Kidney Cancer Symptoms and Signs</item>
+        <item>Kidney Infection Symptoms and Signs</item>
+        <item>Kidney Stone Symptoms and Signs</item>
+        <item>Knee Pain</item>
+        <item>Koilonychia</item>
+        <item>Labile Mood (Inability to Regulate Emotions)</item>
+        <item>Leg Pain</item>
+        <item>Leg Sores</item>
+        <item>Leg Swelling</item>
+        <item>Leukemia Symptoms and Signs</item>
+        <item>Limping</item>
+        <item>Liver Cancer Symptoms and Signs</item>
+        <item>Loss of Appetite</item>
+        <item>Loss of Speech</item>
+        <item>Loss of Taste Sensation</item>
+        <item>Loss of Temperature Sensation</item>
+        <item>Low Blood Pressure Symptoms and Signs</item>
+        <item>Low Libido</item>
+        <item>Low Urine Output</item>
+        <item>Lump or Mass on Gums</item>
+        <item>Lung Cancer Symptoms and Signs</item>
+        <item>Lupus Symptoms and Signs</item>
+        <item>Lyme Disease Symptoms and Signs</item>
+        <item>Measles (Rubeola) Symptoms and Signs</item>
+        <item>Memory Loss</item>
+        <item>Meniere\'s Disease Symptoms and Signs</item>
+        <item>Meningitis Symptoms and Signs</item>
+        <item>Menopause Symptoms and Signs</item>
+        <item>Menstrual Cramps</item>
+        <item>Metallic Taste in the Mouth</item>
+        <item>Middle Ear Infection Symptoms and Signs</item>
+        <item>Miscarriage Symptoms and Signs</item>
+        <item>Missed Menstrual Period</item>
+        <item>Mood Swings</item>
+        <item>Mouth Sores</item>
+        <item>MRSA Infection Symptoms and Signs</item>
+        <item>Multiple Sclerosis (MS) Symptoms and Signs</item>
+        <item>Mumps Symptoms and Signs</item>
+        <item>Muscle Cramps</item>
+        <item>Mutism (Loss of Speech)</item>
+        <item>Nail Clubbing</item>
+        <item>Nail Discoloration</item>
+        <item>Nail Pitting</item>
+        <item>Nail Separation</item>
+        <item>Nasal Congestion</item>
+        <item>Nausea</item>
+        <item>Neck Pain</item>
+        <item>Neglecting Oneself (Self-Neglect)</item>
+        <item>Neonatal Jaundice</item>
+        <item>Numbness Fingers</item>
+        <item>Numbness or Tingling Sensation in the Tongue</item>
+        <item>Numbness Toes</item>
+        <item>Onychorrhexis (Vertical Ridges on the Fingernails)</item>
+        <item>Ovarian Cancer Symptoms and Signs</item>
+        <item>Painful Gums</item>
+        <item>Painful Intercourse</item>
+        <item>Pale Skin</item>
+        <item>Palpitations</item>
+        <item>Pancreatic Cancer Symptoms and Signs</item>
+        <item>Panic Attack Symptoms and Signs</item>
+        <item>Paralysis</item>
+        <item>Paranoia</item>
+        <item>Peeling Skin</item>
+        <item>Penile Discharge</item>
+        <item>Penile Itching</item>
+        <item>Peripheral Neuropathy</item>
+        <item>Phlebitis Symptoms and Signs</item>
+        <item>Photophobia</item>
+        <item>Pink Eye</item>
+        <item>Pleurisy</item>
+        <item>PMS (Premenstrual Syndrome) Symptoms and Signs</item>
+        <item>Pneumonia Symptoms and Signs</item>
+        <item>Polycystic Kidney Disease (PKD) Symptoms and Signs</item>
+        <item>Poor Hygiene</item>
+        <item>Postnasal Drip Symptoms and Signs</item>
+        <item>Pregnancy Symptoms and Signs</item>
+        <item>Proteinuria (Protein in the Urine)</item>
+        <item>Psoriasis Symptoms and Signs</item>
+        <item>Ptosis</item>
+        <item>Rash</item>
+        <item>Rectal Bleeding</item>
+        <item>Rectal Incontinence (Fecal Incontinence)</item>
+        <item>Rectal Pain</item>
+        <item>Red Spots on the Skin</item>
+        <item>Red Streaks on the Skin</item>
+        <item>Restless Leg Syndrome</item>
+        <item>Rheumatoid Arthritis (RA) Symptoms and Signs</item>
+        <item>Ringing in Ears</item>
+        <item>Roseola Symptoms and Signs</item>
+        <item>Runny Nose</item>
+        <item>Scarlet Fever Symptoms and Signs</item>
+        <item>Schizophrenia Symptoms and Signs</item>
+        <item>Seizures</item>
+        <item>Self-Neglect</item>
+        <item>Shaking Hands (Hand Tremors)</item>
+        <item>Shingles Symptoms and Signs</item>
+        <item>Shortness of Breath</item>
+        <item>Shoulder Pain</item>
+        <item>Sinus Infection (Sinusitis) Symptoms and Signs</item>
+        <item>Small Intestine Cancer Symptoms and Signs</item>
+        <item>Snoring</item>
+        <item>Sore Throat</item>
+        <item>Sore Tongue</item>
+        <item>Stiff Neck</item>
+        <item>Stomach Cramps</item>
+        <item>Stomach Ulcer (Peptic Ulcer) Symptoms and Signs</item>
+        <item>Stool Color and Texture Changes</item>
+        <item>Strange Behavior (Unusual Behavior)</item>
+        <item>Strep Throat Symptoms and Signs</item>
+        <item>Stroke Symptoms and Signs</item>
+        <item>Suicide</item>
+        <item>Swollen Ankles and/or Swollen Feet</item>
+        <item>Swollen Eyes</item>
+        <item>Swollen Joints</item>
+        <item>Swollen Lip</item>
+        <item>Swollen Lymph Nodes</item>
+        <item>Swollen Testicles</item>
+        <item>Swollen Tongue</item>
+        <item>Swollen Tonsils</item>
+        <item>Tachycardia</item>
+        <item>Testicular Pain</item>
+        <item>Thirst</item>
+        <item>Throat Cancer Symptoms and Signs</item>
+        <item>Toe Pain</item>
+        <item>Toothache</item>
+        <item>Tremor</item>
+        <item>Tunnel Vision</item>
+        <item>Ulcerative Colitis Symptoms and Signs</item>
+        <item>Unsteady Gait</item>
+        <item>Unusual Behavior</item>
+        <item>Urinary Retention</item>
+        <item>Urinary Tract Infection (UTI) Symptoms and Signs</item>
+        <item>Urinary Urgency</item>
+        <item>Urine Odor</item>
+        <item>Vaginal Bleeding</item>
+        <item>Vaginal Discharge</item>
+        <item>Vaginal Dryness</item>
+        <item>Vaginal Itching</item>
+        <item>Vaginal Odor</item>
+        <item>Vaginal Pain</item>
+        <item>Vaginal Yeast Infection Symptoms and Signs</item>
+        <item>Vertical Ridges on the Fingernails</item>
+        <item>Vertigo</item>
+        <item>Vision Loss</item>
+        <item>Vocal Outbursts</item>
+        <item>Vomiting</item>
+        <item>Vomiting Blood</item>
+        <item>Watery Eye</item>
+        <item>Weakness</item>
+        <item>Weight Gain</item>
+        <item>Weight Loss</item>
+        <item>West Nile Virus Symptoms and Signs</item>
+        <item>Wheezing</item>
+        <item>White Tongue</item>
+        <item>Wrist Pain</item>
+    </string-array>
+    <string-array name="DiseaseList">
+
+        <item>AIDS</item>
+        <item>Aagenaes syndrome</item>
+        <item>Abietic acid dermatitis</item>
+        <item>Abrasion</item>
+        <item>Acanthamoeba infection</item>
+        <item>Achenbach syndrome</item>
+        <item>Achromatopsia / Maskun</item>
+        <item>Acid-induced</item>
+        <item>Acinetobacter infections</item>
+        <item>Acne conglobata</item>
+        <item>Acne mechanica</item>
+        <item>Acne medicamentosa</item>
+        <item>Acne necrotica</item>
+        <item>Acne vulgaris</item>
+        <item>Acne vulgaris</item>
+        <item>Acquired disorders</item>
+        <item>Acral dry gangrene</item>
+        <item>Acral dry gangrene</item>
+        <item>Acral lentiginous melanoma</item>
+        <item>Acroangiodermatitis</item>
+        <item>Acrocyanosis</item>
+        <item>Acromegaly, gigantism</item>
+        <item>Acromegaly</item>
+        <item>Acroosteolysis</item>
+        <item>Acropustulosis of infancy</item>
+        <item>Acrylic monomer dermatitis</item>
+        <item>Actinic prurigo </item>
+        <item>Actinomycosis</item>
+        <item>Acute erythema nodosum</item>
+        <item>Acute myeloid leukemia</item>
+        <item>Acute paronychia</item>
+        <item>Acute radiodermatitis</item>
+        <item>Acute urticaria</item>
+        <item>Acute urticaria</item>
+        <item>Adams–Oliver syndrome</item>
+        <item>Addison\'s disease</item>
+        <item>Addison\'s disease</item>
+        <item>Adducted thumbs syndrome</item>
+        <item>Adhesive dermatitis</item>
+        <item>Adrenal adenoma</item>
+        <item>Adrenal carcinoma</item>
+        <item>Adrenal hormone excess</item>
+        <item>Adrenal hyperplasia</item>
+        <item>Adrenal insufficiency</item>
+        <item>Adrenergic urticaria</item>
+        <item>Adrenocortical carcinoma</item>
+        <item>Adrenocortical carcinoma</item>
+        <item>Adult blaschkitis</item>
+        <item>Adult linear IgA disease</item>
+        <item>Aeromonas infection</item>
+        <item>Aerosol burn</item>
+        <item>African histoplasmosis</item>
+        <item>African sleeping sickness</item>
+        <item>African tick bite fever</item>
+        <item>Airbag dermatitis</item>
+        <item>Alezzandrini syndrome</item>
+        <item>Alkali-induced</item>
+        <item>Alkaptonuria</item>
+        <item>Allergic contact cheilitis</item>
+        <item>Allergic</item>
+        <item>Alopecia areata</item>
+        <item>Alopecia areata</item>
+        <item>Alopecia neoplastica</item>
+        <item>Alphavirus infection</item>
+        <item>Alternariosis</item>
+        <item>Amebiasis cutis</item>
+        <item>Amebiasis</item>
+        <item>Amelanotic melanoma</item>
+        <item>Amenorrhea</item>
+        <item>Anagen effluvium</item>
+        <item>Anal cancer</item>
+        <item>Anaphylaxis</item>
+        <item>Anaplasmosis</item>
+        <item>Angelman syndrome</item>
+        <item>Anhidrosis (Hypohidrosis)</item>
+        <item>Animal-type melanoma</item>
+        <item>Aniridia</item>
+        <item>Anisometropia</item>
+        <item>Annular lichen planus</item>
+        <item>Annular pustular psoriasis</item>
+        <item>Annular sarcoidosis</item>
+        <item>Anonychia</item>
+        <item>Ant sting</item>
+        <item>Anthrax	Bacillus</item>
+        <item>Antifungal agent-induced</item>
+        <item>Aplasia cutis congenita</item>
+        <item>Apocrine gland carcinoma</item>
+        <item>Apocrine nevus</item>
+        <item>Apparent leukonychia</item>
+        <item>Appendix cancer</item>
+        <item>Aquadynia</item>
+        <item>Aquagenic pruritus</item>
+        <item>Aquagenic urticaria</item>
+        <item>Arachnidism</item>
+        <item>Argentine </item>
+        <item>Argyll Robertson pupil</item>
+        <item>Argyria</item>
+        <item>Ariboflavinosis</item>
+        <item>Arrhenoblastoma</item>
+        <item>Arsenic dermatitis</item>
+        <item>Arsenic poisoning</item>
+        <item>Arsenical keratosis</item>
+        <item>Arteriovenous fistula</item>
+        <item>Arthropod assault</item>
+        <item>Artificial nail-induced</item>
+        <item>Ascariasis</item>
+        <item>Aspergillosis</item>
+        <item>Astigmatism</item>
+        <item>Astrovirus infection</item>
+        <item>Atopic dermatitis</item>
+        <item>Atrophic actinic keratosis</item>
+        <item>Atrophic lichen planus</item>
+        <item>Atrophy</item>
+        <item>Axillary deodorant-induced</item>
+        <item>B virus infection</item>
+        <item>B-mannosidase deficiency</item>
+        <item>BK virus infection</item>
+        <item>Babesiosis</item>
+        <item>Baboon syndrome</item>
+        <item>Bacillary angiomatosis</item>
+        <item>Bacillus cereus infection</item>
+        <item>Bacterial pneumonia</item>
+        <item>Bacterial vaginosis (BV)</item>
+        <item>Bacteroides infection</item>
+        <item>Baker\'s itch</item>
+        <item>Balamuthia infection</item>
+        <item>Balantidiasis</item>
+        <item>Balloon cell nevus</item>
+        <item>Bare lymphocyte syndrome</item>
+        <item>Bart syndrome</item>
+        <item>Basal cell carcinoma</item>
+        <item>Basal cell carcinoma</item>
+        <item>Basal-cell carcinoma</item>
+        <item>Baylisascaris</item>
+        <item>Beau\'s lines</item>
+        <item>Becker\'s nevus</item>
+        <item>Bee and wasp stings</item>
+        <item>Bejel (Endemic syphilis)</item>
+        <item>Beriberi,</item>
+        <item>Berlin syndrome</item>
+        <item>Beryllium granuloma</item>
+        <item>Bier spots</item>
+        <item>Biliary pruritus</item>
+        <item>Biotin deficiency</item>
+        <item>Black dermatographism</item>
+        <item>Black hairy tongue</item>
+        <item>Black heel and palm</item>
+        <item>Black piedra</item>
+        <item>Black piedra</item>
+        <item>Bladder cancer</item>
+        <item>Blastic NK-cell lymphoma</item>
+        <item>Blastomycosis</item>
+        <item>Blau syndrome</item>
+        <item>Blau syndrome</item>
+        <item>Bleaching cream-induced</item>
+        <item>Blepharochalasis</item>
+        <item>Blepharophyma</item>
+        <item>Blindness</item>
+        <item>Blister beetle dermatitis</item>
+        <item>Blue nails</item>
+        <item>Blueberry muffin baby</item>
+        <item>Bolivian hemorrhagic fever</item>
+        <item>Bombardier beetle burn</item>
+        <item>Borderline leprosy</item>
+        <item>Borrelia infection</item>
+        <item>Boston exanthem disease</item>
+        <item>Botryomycosis</item>
+        <item>Bovine papular stomatitis</item>
+        <item>Bowen\'s disease</item>
+        <item>Bowenoid papulosis</item>
+        <item>Brachioradial pruritus</item>
+        <item>Brain cancer</item>
+        <item>Brain tumor, ependymoma</item>
+        <item>Brainstem glioma</item>
+        <item>Breast cancer</item>
+        <item>Brill–Zinsser disease</item>
+        <item>Bristleworm sting</item>
+        <item>Bromidrosiphobia</item>
+        <item>Bromoderma</item>
+        <item>Bronchogenic cyst</item>
+        <item>Brooke–Fordyce syndrome</item>
+        <item>Brucellosis</item>
+        <item>Bubble hair deformity</item>
+        <item>Bubonic plague</item>
+        <item>Bubonic plague</item>
+        <item>Buckley syndrome</item>
+        <item>Buffalopox</item>
+        <item>Bull\'s Eye Maculopathy</item>
+        <item>Bullous impetigo</item>
+        <item>Bullous lymphedema</item>
+        <item>Bullous pemphigoid</item>
+        <item>Burkholderia infection</item>
+        <item>Burkitt\'s lymphoma</item>
+        <item>Buruli ulcer</item>
+        <item>Buruli ulcer</item>
+        <item>Butcher\'s wart</item>
+        <item>Calciphylaxis</item>
+        <item>Calciphylaxis</item>
+        <item>Calicivirus infection</item>
+        <item>Callus</item>
+        <item>Camisa disease</item>
+        <item>Campylobacteriosis</item>
+        <item>Candidal intertrigo</item>
+        <item>Candidal onychomycosis</item>
+        <item>Candidal paronychia</item>
+        <item>Candidal vulvovaginitis</item>
+        <item>Candidid</item>
+        <item>Canthaxanthin</item>
+        <item>Cantú syndrome</item>
+        <item>Capsaisin-induced</item>
+        <item>Caput succedaneum</item>
+        <item>Cara Burke (Heart Disease)</item>
+        <item>Carbon stain</item>
+        <item>Carcinoid syndrome</item>
+        <item>Carcinoid tumor, childhood</item>
+        <item>Carotenemia</item>
+        <item>Carotenosis</item>
+        <item>Cataract</item>
+        <item>Caviar tongue</item>
+        <item>Cellular blue nevus</item>
+        <item>Cellulitis	</item>
+        <item>Cellulitis</item>
+        <item>Cellulitis</item>
+        <item>Centipede bite</item>
+        <item>Central serous retinopathy</item>
+        <item>Centrofacial lentiginosis</item>
+        <item>Ceruminoma</item>
+        <item>Cervical cancer</item>
+        <item>Chagas Disease</item>
+        <item>Chancre</item>
+        <item>Chancroid</item>
+        <item>Cheilitis exfoliativa</item>
+        <item>Cheilitis glandularis</item>
+        <item>Chemical burn</item>
+        <item>Chemical burn</item>
+        <item>Cheyletiella dermatitis</item>
+        <item>Chigger bite</item>
+        <item>Chikungunya fever</item>
+        <item>Chikungunya</item>
+        <item>Chilblains</item>
+        <item>Childhood cancers</item>
+        <item>Childhood dermatomyositis</item>
+        <item>Childhood tumor syndrome</item>
+        <item>Chlamydia</item>
+        <item>Chlamydial infection</item>
+        <item>Chlamydophila</item>
+        <item>Chloracne</item>
+        <item>Cholera	</item>
+        <item>Cholestatic pruritus</item>
+        <item>Cholesterol embolus</item>
+        <item>Cholinergic urticaria</item>
+        <item>Chondrodysplasia punctata</item>
+        <item>Chorioretinal inflammation</item>
+        <item>Chorioretinal scars</item>
+        <item>Chorioretinitis</item>
+        <item>Choroidal degeneration</item>
+        <item>Choroidal detachment</item>
+        <item>Choroidal haemorrhage</item>
+        <item>Choroideremia</item>
+        <item>Choroiditis</item>
+        <item>Chrome dermatitis</item>
+        <item>Chromoblastomycosis</item>
+        <item>Chronic bronchitis</item>
+        <item>Chronic erythema nodosum</item>
+        <item>Chronic lymphangitis</item>
+        <item>Chronic paronychia</item>
+        <item>Chronic radiodermatitis</item>
+        <item>Chronic urticaria</item>
+        <item>Chrysiasis</item>
+        <item>Cicatricial alopecia</item>
+        <item>Circumostomy eczema</item>
+        <item>Citrullinemia</item>
+        <item>Clonorchiasis</item>
+        <item>Clothing-induced</item>
+        <item>Cobalt dermatitis</item>
+        <item>Cobb syndrome</item>
+        <item>Coccidioidomycosis</item>
+        <item>Cockayne syndrome</item>
+        <item>Cold urticaria</item>
+        <item>Colloid milium</item>
+        <item>Colon cancer</item>
+        <item>Color blindness</item>
+        <item>Colorado tick fever (CTF)</item>
+        <item>Coma blister</item>
+        <item>Complement deficiency</item>
+        <item>Condylomata acuminata</item>
+        <item>Condylomata lata</item>
+        <item>Conjunctivitis</item>
+        <item>Conn\'s syndrome</item>
+        <item>Contact stomatitis</item>
+        <item>Contact urticaria</item>
+        <item>Coolie itch</item>
+        <item>Copra itch</item>
+        <item>Coral cut</item>
+        <item>Coral dermatitis</item>
+        <item>Corneal neovascularization</item>
+        <item>Corona phlebectatica</item>
+        <item>Corticosteroid-induced</item>
+        <item>Cosmetic dermatitis</item>
+        <item>Costello syndrome</item>
+        <item>Cowpox</item>
+        <item>Creeping eruption</item>
+        <item>Cretinism</item>
+        <item>Creutzfeldt-Jakob disease </item>
+        <item>Crouzon syndrome</item>
+        <item>Cryofibrinogenemic purpura</item>
+        <item>Cryoglobulinemic purpura</item>
+        <item>Cryptococcosis</item>
+        <item>Cryptococcosis</item>
+        <item>Cryptosporidiosis</item>
+        <item>Cushing\'s disease</item>
+        <item>Cutaneous T-cell lymphoma</item>
+        <item>Cutaneous actinomycosis</item>
+        <item>Cutaneous ciliated cyst</item>
+        <item>Cutaneous columnar cyst</item>
+        <item>Cutaneous focal mucinosis</item>
+        <item>Cutis verticis gyrata</item>
+        <item>Cyanocobalamin deficiency</item>
+        <item>Cyclic neutropenia</item>
+        <item>Cyclosporiasis</item>
+        <item>Cysticercosis cutis</item>
+        <item>Cysticercosis</item>
+        <item>Cytomegalovirus infection</item>
+        <item>Dacryoadenitis</item>
+        <item>Deep penetrating nevus</item>
+        <item>Deep venous thrombosis</item>
+        <item>Degos\' disease</item>
+        <item>Delayed blister</item>
+        <item>Delayed puberty</item>
+        <item>Demodex mite bite</item>
+        <item>Dengue (Break-bone fever)</item>
+        <item>Dengue fever</item>
+        <item>Dentifrice-induced</item>
+        <item>Dermatographism</item>
+        <item>Dermatomyositis</item>
+        <item>Dermatophytid</item>
+        <item>Dermatosis neglecta</item>
+        <item>Dermatosis papulosa nigra</item>
+        <item>Dermatothlasia</item>
+        <item>Dermoid cyst</item>
+        <item>Desquamative gingivitis</item>
+        <item>DiGeorge anomaly,</item>
+        <item>Diabetes insipidus</item>
+        <item>Diabetes mellitus</item>
+        <item>Diabetes</item>
+        <item>Diabetic bulla </item>
+        <item>Diabetic cheiroarthropathy</item>
+        <item>Diabetic retinopathy</item>
+        <item>Diaper candidiasis</item>
+        <item>Dientamoebiasis</item>
+        <item>Digitate dermatosis</item>
+        <item>Diphtheria</item>
+        <item>Diphyllobothriasis</item>
+        <item>Disorders of Puberty</item>
+        <item>Disorders of accommodation</item>
+        <item>Disseminated herpes zoster</item>
+        <item>Dogger Bank itch</item>
+        <item>Dolichol kinase deficiency</item>
+        <item>Dracunculiasis</item>
+        <item>Drug-induced acne</item>
+        <item>Drug-induced angioedema</item>
+        <item>Drug-induced keratoderma</item>
+        <item>Drug-induced lipodystrophy</item>
+        <item>Drug-induced nail changes</item>
+        <item>Drug-induced pigmentation</item>
+        <item>Drug-induced pruritus</item>
+        <item>Drug-induced psoriasis</item>
+        <item>Drug-induced purpura</item>
+        <item>Drug-induced urticaria</item>
+        <item>Duncan\'s disease</item>
+        <item>Dust-induced</item>
+        <item>Dyshidrosis</item>
+        <item>Dysthyroid exophthalmos</item>
+        <item>Ear eczema</item>
+        <item>Ebola hemorrhagic fever</item>
+        <item>Eccrine mucinosis</item>
+        <item>Eccrine nevus</item>
+        <item>Echinococcosis</item>
+        <item>Ecthyma gangrenosum</item>
+        <item>Ecthyma</item>
+        <item>Ectodermal dysplasia</item>
+        <item>Ectropion</item>
+        <item>Eczema vaccinatum</item>
+        <item>Eczema vaccinatum</item>
+        <item>Edema blister</item>
+        <item>Ehrlichiosis</item>
+        <item>Electrical burn</item>
+        <item>Elephant skin</item>
+        <item>Elephantiasis nostras</item>
+        <item>Emphysema</item>
+        <item>Encephalocele</item>
+        <item>Endometrial cancer</item>
+        <item>Enterobiasis</item>
+        <item>Enterococcus infection</item>
+        <item>Enterovirus infection</item>
+        <item>Entomophthoromycosis</item>
+        <item>Eosinophilic granuloma</item>
+        <item>Eosinophilic vasculitis</item>
+        <item>Ependymoma</item>
+        <item>Ephelis (Freckle)</item>
+        <item>Epidemic dropsy</item>
+        <item>Epidermization of the lip</item>
+        <item>Epidermolytic acanthoma</item>
+        <item>Epiphora</item>
+        <item>Epiretinal membrane</item>
+        <item>Epithelioid blue nevus</item>
+        <item>Epoxy resin dermatitis</item>
+        <item>Epulis</item>
+        <item>Equestrian perniosis</item>
+        <item>Erisipela de la costa</item>
+        <item>Erosive lichen planus</item>
+        <item>Eruptive vellus hair cyst</item>
+        <item>Eruptive xanthoma</item>
+        <item>Erysipelas</item>
+        <item>Erysipeloid of Rosenbach</item>
+        <item>Erythema ab igne</item>
+        <item>Erythema elevatum diutinum</item>
+        <item>Erythema infectiosum </item>
+        <item>Erythema marginatum</item>
+        <item>Erythema migrans</item>
+        <item>Erythema multiforme</item>
+        <item>Erythema palmare</item>
+        <item>Erythrasma</item>
+        <item>Erythrocyanosis crurum</item>
+        <item>Erythrodermic sarcoidosis</item>
+        <item>Erythromelalgia</item>
+        <item>Erythroplasia of Queyrat</item>
+        <item>Esophageal cancer</item>
+        <item>Esotropia </item>
+        <item>Ethylenediamine-induced</item>
+        <item>Exercise-induced urticaria</item>
+        <item>Exfoliative dermatitis</item>
+        <item>Exotropia</item>
+        <item>External otitis</item>
+        <item>Eye cancer, retinoblastoma</item>
+        <item>Eye makeup-induced</item>
+        <item>Eyelid dermatitis</item>
+        <item>Factitial lymphedema</item>
+        <item>Factitial panniculitis</item>
+        <item>Factitious dermatitis</item>
+        <item>Farmyard pox</item>
+        <item>Farsightedness</item>
+        <item>Favre–Racouchot syndrome</item>
+        <item>Favus</item>
+        <item>Favus</item>
+        <item>Feather pillow dermatitis</item>
+        <item>Felon</item>
+        <item>Fiberglass dermatitis</item>
+        <item>Fibrinolysis syndrome</item>
+        <item>Fibroepithelioma of Pinkus</item>
+        <item>Fibroepithelioma</item>
+        <item>Fibrofolliculoma</item>
+        <item>Fixed drug reaction</item>
+        <item>Flea-borne spotted fever</item>
+        <item>Floaters</item>
+        <item>Flower-induced</item>
+        <item>Fluoroscopy burn</item>
+        <item>Fluoroscopy burn</item>
+        <item>Flying squirrel typhus</item>
+        <item>Folic acid deficiency</item>
+        <item>Follicular atrophoderma</item>
+        <item>Folliculitis decalvans</item>
+        <item>Folliculitis</item>
+        <item>Food-induced purpura</item>
+        <item>Foreign body reaction</item>
+        <item>Formaldehyde-induced</item>
+        <item>Fox–Fordyce disease</item>
+        <item>Fracture blister</item>
+        <item>Fragrance-induced</item>
+        <item>Friction blister</item>
+        <item>Frontal fibrosing alopecia</item>
+        <item>Frontal linear scleroderma</item>
+        <item>Frostbite</item>
+        <item>Fuchs\' dystrophy</item>
+        <item>Fucosidosis</item>
+        <item>Funnel web spider bite</item>
+        <item>Furunculosis (Boil)</item>
+        <item>Fusariosis</item>
+        <item>Gallbladder cancer</item>
+        <item>Galli–Galli disease</item>
+        <item>Galvanic urticaria</item>
+        <item>Gamasoidosis</item>
+        <item>Gastric (stomach) cancer</item>
+        <item>Gastric carcinoid</item>
+        <item>Gastrocutaneous syndrome</item>
+        <item>Gaucher\'s disease</item>
+        <item>Generalized erythema</item>
+        <item>Generalized hyperhidrosis</item>
+        <item>Generalized lentiginosis</item>
+        <item>Generalized morphea</item>
+        <item>Generalized vaccinia</item>
+        <item>Geotrichosis</item>
+        <item>Gestational Diabetes</item>
+        <item>Giant-cell arteritis</item>
+        <item>Gingival fibroma</item>
+        <item>Gingival hypertrophy</item>
+        <item>Glandular rosacea</item>
+        <item>Glaucoma suspect</item>
+        <item>Glaucoma</item>
+        <item>Gleich syndrome</item>
+        <item>Glioma of the brain stem</item>
+        <item>Glucagonoma</item>
+        <item>Gnathophyma</item>
+        <item>Goiter</item>
+        <item>Gold dermatitis</item>
+        <item>Gonadal dysgenesis</item>
+        <item>Gonorrhea (Clap)</item>
+        <item>Good syndrome</item>
+        <item>Gougerot–Blum syndrome</item>
+        <item>Gouty panniculitis</item>
+        <item>Graft-versus-host disease</item>
+        <item>Graham-Little syndrome</item>
+        <item>Gram-negative folliculitis</item>
+        <item>Gram-negative rosacea</item>
+        <item>Granular parakeratosis</item>
+        <item>Granuloma faciale</item>
+        <item>Granulomatous slack skin</item>
+        <item>Granulosis rubra nasi</item>
+        <item>Graves-Basedow disease</item>
+        <item>Green nail syndrome</item>
+        <item>Green nails</item>
+        <item>Griscelli syndrome type 3</item>
+        <item>Griscelli syndrome</item>
+        <item>Grocer\'s itch</item>
+        <item>Grover\'s disease</item>
+        <item>Growth hormone deficiency</item>
+        <item>Gunther\'s disease</item>
+        <item>Gustatory hyperhidrosis</item>
+        <item>Gyrate atrophy, choroid</item>
+        <item>HIV-associated pruritus</item>
+        <item>Haber syndrome</item>
+        <item>Hair bleach-induced</item>
+        <item>Hair casts (Pseudonits)</item>
+        <item>Hair dye-induced</item>
+        <item>Hair lotion-induced</item>
+        <item>Hair spray-induced</item>
+        <item>Hair straightener-induced</item>
+        <item>Hair tonic-induced</item>
+        <item>Hairy cell leukemia</item>
+        <item>Hairy palms and soles</item>
+        <item>Hairy-cell leukemia</item>
+        <item>Halogen acne</item>
+        <item>Halogenoderma</item>
+        <item>Hand eczema</item>
+        <item>Hangnail</item>
+        <item>Hapalonychia</item>
+        <item>Harada\'s disease</item>
+        <item>Harlequin color change</item>
+        <item>Harpist\'s finger</item>
+        <item>Hashimoto\'s thyroiditis</item>
+        <item>Head and neck cancer</item>
+        <item>Heart cancer</item>
+        <item>Heat edema</item>
+        <item>Heat urticaria</item>
+        <item>Heel stick wound</item>
+        <item>Heerfordt\'s syndrome</item>
+        <item>Helicobacter cellulitis</item>
+        <item>Hematidrosis</item>
+        <item>Hematopoietic ulcer</item>
+        <item>Hennekam syndrome</item>
+        <item>Heparin necrosis</item>
+        <item>Hepatitis B</item>
+        <item>Hepatitis C</item>
+        <item>Hereditary coproporphyria</item>
+        <item>Heredofamilial amyloidosis</item>
+        <item>Hermaphroditism</item>
+        <item>Herpangina</item>
+        <item>Herpes simplex</item>
+        <item>Herpetic sycosis</item>
+        <item>Herpetic whitlow</item>
+        <item>Heterochromia iridum</item>
+        <item>Hidradenocarcinoma</item>
+        <item>Hidradenoma</item>
+        <item>Hidradenoma</item>
+        <item>Hirsutism</item>
+        <item>Histoid leprosy</item>
+        <item>Hodgkin lymphoma</item>
+        <item>Hodgkin\'s disease</item>
+        <item>Hook nail</item>
+        <item>Hospital furunculosis</item>
+        <item>Hot comb alopecia</item>
+        <item>Hot tar burn</item>
+        <item>Houseplant-induced</item>
+        <item>Human monkeypox</item>
+        <item>Human tanapox</item>
+        <item>Human trypanosomiasis</item>
+        <item>Hunan hand syndrome</item>
+        <item>Hunter syndrome</item>
+        <item>Hutchinson\'s teeth</item>
+        <item>Hyalohyphomycosis</item>
+        <item>Hydroa vacciniforme</item>
+        <item>Hydrocarbon-induced</item>
+        <item>Hydroid dermatitis</item>
+        <item>Hydroxyurea dermopathy</item>
+        <item>Hyper-IgD syndrome[nb 7]</item>
+        <item>Hypereosinophilic syndrome</item>
+        <item>Hyperparathyroidism</item>
+        <item>Hypertensive retinopathy</item>
+        <item>Hyperthyroidism</item>
+        <item>Hyperthyroidism</item>
+        <item>Hypervitaminosis A</item>
+        <item>Hypoglycemia</item>
+        <item>Hypogonadism</item>
+        <item>Hypoparathyroidism</item>
+        <item>Hypoparathyroidism</item>
+        <item>Hypopharyngeal cancer</item>
+        <item>Hypopigmented sarcoidosis</item>
+        <item>Hypopituitarism</item>
+        <item>Hypothyroidism</item>
+        <item>Hypothyroidism</item>
+        <item>ICF syndrome</item>
+        <item>Ichthyosiform sarcoidosis</item>
+        <item>Ichthyosis with confetti</item>
+        <item>Idiopathic hypoglycemia</item>
+        <item>IgA pemphigus</item>
+        <item>IgA vasculitis</item>
+        <item>Impetigo contagiosa</item>
+        <item>Impetigo herpetiformis</item>
+        <item>Infantile acne</item>
+        <item>Injection site reaction</item>
+        <item>Insulinoma</item>
+        <item>Intraocular melanoma</item>
+        <item>Intraoral dental sinus</item>
+        <item>Inverse lichen planus</item>
+        <item>Inverse psoriasis</item>
+        <item>Involutional lipoatrophy</item>
+        <item>Iododerma</item>
+        <item>Iritis</item>
+        <item>Iron deficiency</item>
+        <item>Irritant folliculitis</item>
+        <item>Irukandji syndrome</item>
+        <item>Ischemic ulcer</item>
+        <item>Isolated IgA deficiency</item>
+        <item>Janus kinase 3 deficiency</item>
+        <item>Japanese spotted fever</item>
+        <item>Jellyfish dermatitis</item>
+        <item>Job syndrome</item>
+        <item>Jogger\'s nipple</item>
+        <item>Joubert syndrome</item>
+        <item>Juvenile spring eruption</item>
+        <item>Juvenile xanthogranuloma</item>
+        <item>Kairo cancer</item>
+        <item>Kallmann syndrome</item>
+        <item>Kang cancer</item>
+        <item>Kangri ulcer</item>
+        <item>Kaposi sarcoma</item>
+        <item>Kaposi sarcoma</item>
+        <item>Kaposi sarcoma</item>
+        <item>Kawasaki\'s disease</item>
+        <item>Ked itch</item>
+        <item>Keloid morphea</item>
+        <item>Keratin implantation cyst</item>
+        <item>Keratitis</item>
+        <item>Keratoacanthoma</item>
+        <item>Keratoconjunctivitis sicca</item>
+        <item>Keratoconus</item>
+        <item>Keratolysis exfoliativa</item>
+        <item>Keratomycosis </item>
+        <item>Keratosis pilaris</item>
+        <item>Keratosis pilaris</item>
+        <item>Kerion</item>
+        <item>Kimura\'s disease</item>
+        <item>Klinefelter syndrome</item>
+        <item>Klinefelter syndrome</item>
+        <item>Klippel–Feil syndrome</item>
+        <item>Koilonychia (Spoon nails)</item>
+        <item>Kraurosis vulvae</item>
+        <item>Kwashiorkor</item>
+        <item>Kwashiorkor</item>
+        <item>Kyrle disease</item>
+        <item>LIG4 syndrome</item>
+        <item>Lafora disease</item>
+        <item>Lagophthalmos</item>
+        <item>Lanolin-induced</item>
+        <item>Large cell acanthoma</item>
+        <item>Large, red, scaly plaque</item>
+        <item>Larva currens</item>
+        <item>Laryngeal cancer</item>
+        <item>Lassa fever</item>
+        <item>Lead poisoning</item>
+        <item>Leber\'s hereditary</item>
+        <item>Leech bite</item>
+        <item>Leiner\'s disease</item>
+        <item>Lelis syndrome</item>
+        <item>Lentigo maligna melanoma</item>
+        <item>Lenz–Majewski syndrome</item>
+        <item>Leopard skin</item>
+        <item>Lepromatous leprosy</item>
+        <item>Leprosy (Hansen\'s disease)</item>
+        <item>Leschke syndrome</item>
+        <item>Letterer–Siwe disease</item>
+        <item>Leukemia cutis</item>
+        <item>Leukemia, hairy cell</item>
+        <item>Leukemias</item>
+        <item>Leukoderma</item>
+        <item>Leukonychia (White nails)</item>
+        <item>Leukoplakia</item>
+        <item>Levator ani syndrome</item>
+        <item>Leydig cell tumor</item>
+        <item>Lhermitte–Duclos disease</item>
+        <item>Lichen amyloidosis</item>
+        <item>Lichen aureus</item>
+        <item>Lichen nitidus</item>
+        <item>Lichen nitidus</item>
+        <item>Lichen planus actinicus</item>
+        <item>Lichen planus of the nails</item>
+        <item>Lichen planus pemphigoides</item>
+        <item>Lichen planus pigmentosus</item>
+        <item>Lichen ruber moniliformis</item>
+        <item>Lichen simplex chronicus</item>
+        <item>Lichenoid dermatitis</item>
+        <item>Lichenoid trikeratosis</item>
+        <item>Lightning burn</item>
+        <item>Limb–mammary syndrome</item>
+        <item>Limited joint mobility</item>
+        <item>Linea alba</item>
+        <item>Linea nigra</item>
+        <item>Linear Darier disease</item>
+        <item>Linear lichen planus</item>
+        <item>Linear porokeratosis</item>
+        <item>Linear scleroderma</item>
+        <item>Lip and oral cavity cancer</item>
+        <item>Lipohypertrophy</item>
+        <item>Liposarcoma</item>
+        <item>Lipstick-induced</item>
+        <item>Listeriosis</item>
+        <item>Livedo racemosa</item>
+        <item>Livedo reticularis</item>
+        <item>Livedoid dermatitis</item>
+        <item>Livedoid vasculopathy</item>
+        <item>Liver cancer (primary)</item>
+        <item>Lizard bite</item>
+        <item>Lizard skin</item>
+        <item>Local anesthetic-induced</item>
+        <item>Localized lipodystrophy</item>
+        <item>Localized morphea</item>
+        <item>Localized morphea</item>
+        <item>Longitudinal erythronychia</item>
+        <item>Longitudinal melanonychia</item>
+        <item>Loop mark</item>
+        <item>Lowry–MacLean syndrome</item>
+        <item>Ludwig\'s angina</item>
+        <item>Lung cancer, small cell</item>
+        <item>Lung cancer,non-small cell</item>
+        <item>Lupoid sycosis</item>
+        <item>Lupus erythematosus</item>
+        <item>Lupus pernio</item>
+        <item>Lycopenemia</item>
+        <item>Lymphedema praecox</item>
+        <item>Lymphoma cutis</item>
+        <item>Lymphoma, AIDS-related</item>
+        <item>Lymphoma, Burkitt</item>
+        <item>Lymphoma, Hodgkin</item>
+        <item>Lymphoma, cutaneous T-Cell</item>
+        <item>Lymphomas</item>
+        <item>Lymphomatoid papulosis</item>
+        <item>Löfgren syndrome</item>
+        <item>MEN type 1</item>
+        <item>MEN type 2a</item>
+        <item>MEN type 2b</item>
+        <item>Macrocheilia</item>
+        <item>Macular amyloidosis</item>
+        <item>Macular degeneration</item>
+        <item>Macular edema</item>
+        <item>Madarosis</item>
+        <item>Maffucci syndrome</item>
+        <item>Majeed syndrome</item>
+        <item>Majocchi\'s disease</item>
+        <item>Makassar ebony dermatitis</item>
+        <item>Mal morando</item>
+        <item>Male breast cancer</item>
+        <item>Male-pattern baldness</item>
+        <item>Malignant blue nevus</item>
+        <item>Malignant pilomatricoma</item>
+        <item>Mandibuloacral dysplasia</item>
+        <item>Mantleoma</item>
+        <item>Maple syrup urine disease</item>
+        <item>Marasmus</item>
+        <item>Marine plant-induced</item>
+        <item>Marjolin\'s ulcer</item>
+        <item>Marshall syndrome</item>
+        <item>Marshall–White syndrome</item>
+        <item>McCune–Albright syndrome</item>
+        <item>McCusick syndrome</item>
+        <item>Median raphe cyst</item>
+        <item>Medulloblastoma, childhood</item>
+        <item>Mees\' lines</item>
+        <item>Meesmann corneal dystrophy</item>
+        <item>Meige lymphedema</item>
+        <item>Melanoacanthoma</item>
+        <item>Melanocytic oral lesion</item>
+        <item>Melanoma</item>
+        <item>Melanonychia</item>
+        <item>Membranous aplasia cutis</item>
+        <item>Meningococcemia</item>
+        <item>Mercury dermatitis</item>
+        <item>Mercury granuloma</item>
+        <item>Merkel cell cancer</item>
+        <item>Mesothelioma, childhood</item>
+        <item>Metageria</item>
+        <item>Metophyma</item>
+        <item>Micropthalmia/coloboma</item>
+        <item>Microscopic polyangiitis</item>
+        <item>Midline cervical cleft</item>
+        <item>Milia en plaque</item>
+        <item>Milia-like calcinosis</item>
+        <item>Miliaria crystallina</item>
+        <item>Miliaria profunda</item>
+        <item>Miliaria pustulosa</item>
+        <item>Miliaria rubra </item>
+        <item>Milium</item>
+        <item>Milium</item>
+        <item>Milker\'s nodule</item>
+        <item>Millipede burn</item>
+        <item>Missouri Lyme disease</item>
+        <item>Molluscum contagiosum</item>
+        <item>Molluscum dermatitis</item>
+        <item>Mondor\'s disease</item>
+        <item>Mongolian spot </item>
+        <item>Mongolian spot</item>
+        <item>Monilethrix (Beaded hair)</item>
+        <item>Morphea profunda</item>
+        <item>Morpheaform sarcoidosis</item>
+        <item>Moschcowitz syndrome</item>
+        <item>Mosquito bite</item>
+        <item>Mouth cancer</item>
+        <item>Mouthwash-induced</item>
+        <item>Moynahan syndrome</item>
+        <item>Mucinous carcinoma</item>
+        <item>Muckle–Wells syndrome</item>
+        <item>Mucormycosis</item>
+        <item>Mucosal lichen planus</item>
+        <item>Mucosal melanoma</item>
+        <item>Mucosal sarcoidosis</item>
+        <item>Muir–Torre syndrome</item>
+        <item>Mukamel syndrome</item>
+        <item>Mulberry molar</item>
+        <item>Mycoplasma infection</item>
+        <item>Mycosis fungoides</item>
+        <item>Mycosis fungoides</item>
+        <item>Mycosis fungoides</item>
+        <item>Myelodysplastic syndromes</item>
+        <item>Myeloperoxidase deficiency</item>
+        <item>Myiasis</item>
+        <item>Myrmecia</item>
+        <item>Myxedema</item>
+        <item>Myxoid lipoblastoma</item>
+        <item>Nagayama\'s spots</item>
+        <item>Nail lacquer-induced</item>
+        <item>Nail–patella syndrome</item>
+        <item>Napkin psoriasis</item>
+        <item>Narcotic dermopathy</item>
+        <item>Nasal glioma</item>
+        <item>Nasolacrimal duct cyst</item>
+        <item>Nasopharyngeal carcinoma</item>
+        <item>Nearsightedness</item>
+        <item>Necklace of Venus</item>
+        <item>Necrolytic acral erythema</item>
+        <item>Nematode dermatitis</item>
+        <item>Neonatal herpes simplex</item>
+        <item>Neoplasms of the nailbed</item>
+        <item>Netherton syndrome</item>
+        <item>Neuroblastoma</item>
+        <item>Neurofibromatosis type 1</item>
+        <item>Neuropathic ulcer</item>
+        <item>Neurotic excoriations</item>
+        <item>Nevoid hypertrichosis</item>
+        <item>Nevoid melanoma</item>
+        <item>Nevoid telangiectasia</item>
+        <item>Nevus anemicus</item>
+        <item>Nevus anemicus</item>
+        <item>Nevus comedonicus syndrome</item>
+        <item>Nevus psiloliparus</item>
+        <item>Nevus unius lateris</item>
+        <item>Nezelof syndrome</item>
+        <item>Nickel dermatitis</item>
+        <item>Nicolau–Balus syndromen</item>
+        <item>Niemann–Pick disease</item>
+        <item>Nightblindness</item>
+        <item>Njolstad syndrome</item>
+        <item>Nocardiosis</item>
+        <item>Nodular amyloidosis</item>
+        <item>Nodular melanoma</item>
+        <item>Nodular melanoma</item>
+        <item>Nodular vasculitis</item>
+        <item>Nodular xanthoma</item>
+        <item>Noma neonatorum</item>
+        <item>Non-Hodgkin lymphoma</item>
+        <item>Non-X histiocytosis</item>
+        <item>Non-small cell lung cancer</item>
+        <item>Noncicatricial alopecia</item>
+        <item>Noonan syndrome</item>
+        <item>North Asian tick typhus</item>
+        <item>Norwegian scabies</item>
+        <item>Obstructive purpura</item>
+        <item>Occlusion miliaria</item>
+        <item>Occupation-induced</item>
+        <item>Occupational acne</item>
+        <item>Ochronosis</item>
+        <item>Ocular albinism</item>
+        <item>Oculocutaneous albinism</item>
+        <item>Oil acne</item>
+        <item>Omenn syndrome</item>
+        <item>Omenn syndrome</item>
+        <item>Onchocerciasis</item>
+        <item>Onychauxis</item>
+        <item>Onychoatrophy</item>
+        <item>Onycholysis</item>
+        <item>Onychomadesis</item>
+        <item>Onychomatricoma</item>
+        <item>Onychophagia (Nail biting)</item>
+        <item>Onychophosis</item>
+        <item>Onychoschizia</item>
+        <item>Onychotillomania</item>
+        <item>Onychotillomania</item>
+        <item>Ophiasis</item>
+        <item>Ophthalmia neonatorum</item>
+        <item>Ophthalmia nodosa</item>
+        <item>Ophthalmic zoster</item>
+        <item>Ophthalmoparesis</item>
+        <item>Oral Crohn\'s disease</item>
+        <item>Oral cancer</item>
+        <item>Oral candidiasis (Thrush)</item>
+        <item>Oral florid papillomatosis</item>
+        <item>Oral melanosis</item>
+        <item>Orofaciodigital syndrome</item>
+        <item>Oropharyngeal cancer</item>
+        <item>Osteitis deformans</item>
+        <item>Osteoma cutis</item>
+        <item>Osteoporosis</item>
+        <item>Otomycosis</item>
+        <item>Otophyma</item>
+        <item>Ovarian cancer</item>
+        <item>Ovarian failure</item>
+        <item>Ovarian germ cell tumor</item>
+        <item>PAPA syndrome</item>
+        <item>PELVIS syndrome</item>
+        <item>PUVA keratosis</item>
+        <item>PUVA lentigines</item>
+        <item>Paederus dermatitis</item>
+        <item>Painful bruising syndrome</item>
+        <item>Painful fat herniation</item>
+        <item>Palmar xanthoma</item>
+        <item>Palmoplantar keratoderma</item>
+        <item>Pancreatic cancer</item>
+        <item>Panhypopituitarism</item>
+        <item>Pansclerotic morphea</item>
+        <item>Papular eruption of blacks</item>
+        <item>Papular sarcoid</item>
+        <item>Papular xanthoma</item>
+        <item>Papulonecrotic tuberculid</item>
+        <item>Paraben-induced</item>
+        <item>Parakeratosis pustulosa</item>
+        <item>Paraneoplastic keratoderma</item>
+        <item>Paraneoplastic pemphigus</item>
+        <item>Parathyroid cancer</item>
+        <item>Parkes Weber syndrome</item>
+        <item>Parry–Romberg syndrome</item>
+        <item>Pars planitis</item>
+        <item>Pasteurellosis</item>
+        <item>Peat fire cancer</item>
+        <item>Pemphigoid nodularis</item>
+        <item>Pemphigus foliaceus</item>
+        <item>Pemphigus vegetans</item>
+        <item>Pemphigus vulgaris</item>
+        <item>Penile cancer</item>
+        <item>Peno-gingival syndrome</item>
+        <item>Perforating folliculitis</item>
+        <item>Perianal candidiasis</item>
+        <item>Periapical abscess</item>
+        <item>Perifollicular fibroma</item>
+        <item>Perifollicular mucinosis</item>
+        <item>Perioral dermatitis</item>
+        <item>Periorificial dermatitis</item>
+        <item>Peripheral ameloblastoma</item>
+        <item>Peutz–Jeghers syndrome</item>
+        <item>Pfeiffer syndrome</item>
+        <item>Phaeohyphomycosis</item>
+        <item>Pharyngeal cancer</item>
+        <item>Phenothiazine drug-induced</item>
+        <item>Phenylketonuria</item>
+        <item>Pheochromocytoma</item>
+        <item>Pheochromocytoma</item>
+        <item>Photoaging</item>
+        <item>Photoallergic</item>
+        <item>Photoirritant</item>
+        <item>Phototoxic tar dermatitis</item>
+        <item>Phylloid hypomelanosis</item>
+        <item>Phymatous rosacea</item>
+        <item>Physical urticaria</item>
+        <item>Phytophotodermatitis</item>
+        <item>Piebaldism</item>
+        <item>Piedra (Trichosporosis)</item>
+        <item>Pigmented wart</item>
+        <item>Pilar sheath acanthoma</item>
+        <item>Pili bifurcati</item>
+        <item>Pili multigemini</item>
+        <item>Pili torti (Twisted hairs)</item>
+        <item>Pilomatricoma </item>
+        <item>Pinch mark</item>
+        <item>Pineal astrocytoma</item>
+        <item>Pineal germinoma</item>
+        <item>Pinta</item>
+        <item>Pituitary adenoma</item>
+        <item>Pituitary adenomas</item>
+        <item>Pituitary tumors</item>
+        <item>Pityriasis alba</item>
+        <item>Pityriasis rosea</item>
+        <item>Pityriasis rubra pilaris</item>
+        <item>Pityrosporum folliculitis</item>
+        <item>Plague</item>
+        <item>Plant derivative-induced</item>
+        <item>Plasmacytoma</item>
+        <item>Plasmacytosis</item>
+        <item>Plasmoacanthoma</item>
+        <item>Plate-like osteoma cutis</item>
+        <item>Platonychia</item>
+        <item>Pleuropulmonary blastoma</item>
+        <item>Plummer\'s nail</item>
+        <item>Poikiloderma of Civatte</item>
+        <item>Poland anomaly</item>
+        <item>Poland\'s syndrome</item>
+        <item>Pollen-induced</item>
+        <item>Polyarteritis nodosa</item>
+        <item>Polycystic ovary syndrome</item>
+        <item>Polyester resin dermatitis</item>
+        <item>Polypoid melanoma</item>
+        <item>Pomade acne</item>
+        <item>Porokeratosis</item>
+        <item>Porphyria cutanea tarda</item>
+        <item>Post-steroid panniculitis</item>
+        <item>Postcardiotomy syndrome</item>
+        <item>Posterior cyclitis</item>
+        <item>Postmiliarial hypohidrosis</item>
+        <item>Postoperative hematoma</item>
+        <item>Prader–Willi syndrome</item>
+        <item>Precocious puberty</item>
+        <item>Prepubertal hypertrichosis</item>
+        <item>Presbyopia</item>
+        <item>Pressure ulcer</item>
+        <item>Pressure ulcer</item>
+        <item>Pressure urticaria</item>
+        <item>Prion pruritus</item>
+        <item>Prolactinoma</item>
+        <item>Prolidase deficiency</item>
+        <item>Propylene glycol-induced</item>
+        <item>Prostate cancer</item>
+        <item>Protein contact dermatitis</item>
+        <item>Proteus syndrome</item>
+        <item>Proteus-like syndrome</item>
+        <item>Protothecosis</item>
+        <item>Prurigo nodularis</item>
+        <item>Prurigo pigmentosa</item>
+        <item>Prurigo simplex</item>
+        <item>Pruritus ani</item>
+        <item>Pruritus scroti</item>
+        <item>Pruritus vulvae</item>
+        <item>Pseudo-ainhum</item>
+        <item>Pseudoacanthosis nigricans</item>
+        <item>Pseudocowpox</item>
+        <item>Pseudohypoparathyroidism</item>
+        <item>Pseudomonal pyoderma</item>
+        <item>Psoriasis vulgaris</item>
+        <item>Psoriatic arthritis</item>
+        <item>Psoriatic nails</item>
+        <item>Psychogenic pruritus</item>
+        <item>Ptosis</item>
+        <item>Pulicosis (Flea bites)</item>
+        <item>Pulling boat hands</item>
+        <item>Punctate porokeratosis</item>
+        <item>Purpura fulminans</item>
+        <item>Purpura hyperglobulinemica</item>
+        <item>Purpura of the nail bed</item>
+        <item>Purpuric agave dermatitis</item>
+        <item>Pustular bacterid</item>
+        <item>Pyoderma gangrenosum</item>
+        <item>Pyoderma gangrenosum</item>
+        <item>Pyogenic granuloma</item>
+        <item>Pyogenic paronychia</item>
+        <item>Pyomyositis</item>
+        <item>Pyostomatitis vegetans</item>
+        <item>Pyridoxine deficiency</item>
+        <item>Pyridoxine excess</item>
+        <item>Q fever</item>
+        <item>Quadrichrome vitiligo</item>
+        <item>Queensland tick typhus</item>
+        <item>Quincke edema</item>
+        <item>Radiation acne</item>
+        <item>Radiation cancer</item>
+        <item>Radiation dermatitis )</item>
+        <item>Radiation recall reaction</item>
+        <item>Radiation-induced keloid</item>
+        <item>Radiation-induced morphea</item>
+        <item>Rasmussen syndrome</item>
+        <item>Rat-bite fever</item>
+        <item>Reactional keratosis</item>
+        <item>Rectal cancer</item>
+        <item>Red eye</item>
+        <item>Red lunulae</item>
+        <item>Red man syndrome</item>
+        <item>Reduviid bite</item>
+        <item>Reed dermatitis</item>
+        <item>Reflex cold urticaria</item>
+        <item>Relapsing polychondritis </item>
+        <item>Restrictive dermopathy</item>
+        <item>Reticulohistiocytoma</item>
+        <item>Retiform parapsoriasis</item>
+        <item>Retinal detachment</item>
+        <item>Retinal detachment</item>
+        <item>Retinal haemorrhage</item>
+        <item>Retinitis pigmentosa</item>
+        <item>Retinitis</item>
+        <item>Retinoblastoma</item>
+        <item>Retinochoroiditis</item>
+        <item>Retinopathy of prematurity</item>
+        <item>Retinopathy</item>
+        <item>Retinoschisis</item>
+        <item>Revesz syndrome</item>
+        <item>Rheumatoid arthritis</item>
+        <item>Rheumatoid nodulosis </item>
+        <item>Rheumatoid vasculitis</item>
+        <item>Rhinophyma</item>
+        <item>Rhinophyma</item>
+        <item>Rhinoscleroma</item>
+        <item>Rhinosporidiosis</item>
+        <item>Riboflavin deficiency</item>
+        <item>Rickets and osteomalacia</item>
+        <item>Rickettsialpox</item>
+        <item>Riehl melanosis</item>
+        <item>Rift Valley fever</item>
+        <item>River blindness</item>
+        <item>Rombo syndrome</item>
+        <item>Rosacea (Acne rosacea)</item>
+        <item>Rosacea conglobata</item>
+        <item>Roseola vaccinia</item>
+        <item>Rosewood dermatitis</item>
+        <item>Rosin dermatitis</item>
+        <item>Ross\' syndrome</item>
+        <item>Rowell\'s syndrome</item>
+        <item>Rubber dermatitis</item>
+        <item>Rubella (German measles)</item>
+        <item>Rud syndrome</item>
+        <item>Runner\'s rump</item>
+        <item>SACRAL syndrome</item>
+        <item>Saddle nose</item>
+        <item>Salivary gland cancer</item>
+        <item>Salmonellosis</item>
+        <item>Sanfilippo syndrome</item>
+        <item>Sarcoma, Kaposi</item>
+        <item>Sarcoma, soft tissue</item>
+        <item>Sarcoma, uterine</item>
+        <item>Say syndrome</item>
+        <item>Scalp dysesthesia</item>
+        <item>Scalp pruritus</item>
+        <item>Scarlet fever</item>
+        <item>Schamberg\'s disease</item>
+        <item>Schilder\'s disease</item>
+        <item>Schnitzler syndrome</item>
+        <item>Schwannoma </item>
+        <item>Sciatic nerve injury</item>
+        <item>Sclerema neonatorum</item>
+        <item>Scleritis</item>
+        <item>Scleroderma</item>
+        <item>Sclerosing lymphangiitis</item>
+        <item>Sclerosis</item>
+        <item>Scorpion sting</item>
+        <item>Scotoma (blind spot)</item>
+        <item>Scrotodynia</item>
+        <item>Scurvy</item>
+        <item>Sea anemone dermatitis</item>
+        <item>Sea urchin injury</item>
+        <item>Sea-blue histiocytosis</item>
+        <item>Sealpox</item>
+        <item>Seaweed dermatitis</item>
+        <item>Sebaceous adenoma</item>
+        <item>Sebaceous carcinoma</item>
+        <item>Sebaceous hyperplasia</item>
+        <item>Sebaceous nevus syndrome</item>
+        <item>Seboacanthoma</item>
+        <item>Secondary lymphedema</item>
+        <item>Seed-induced</item>
+        <item>Segmental vitiligo</item>
+        <item>Selenium deficiency</item>
+        <item>Senile pruritus</item>
+        <item>Septal panniculitis</item>
+        <item>Septic thrombophlebitis</item>
+        <item>Setleis syndrome</item>
+        <item>Shell nail syndrome</item>
+        <item>Shigellosis</item>
+        <item>Shin spots</item>
+        <item>Shoe dermatitis</item>
+        <item>Short anagen syndrome</item>
+        <item>Sialidosis</item>
+        <item>Silica granuloma</item>
+        <item>Silicone granuloma</item>
+        <item>Silver–Russell syndrome</item>
+        <item>Sinus pericranii</item>
+        <item>Sinusoidal hemangioma</item>
+        <item>Skin cancer (melanoma)</item>
+        <item>Skin pop scar</item>
+        <item>Skin track</item>
+        <item>Slap mark</item>
+        <item>Small cell lung cancer</item>
+        <item>Small intestine cancer</item>
+        <item>Snake bite</item>
+        <item>Sneddon\'s syndrome</item>
+        <item>Snow blindness / Arc eye</item>
+        <item>Soft tissue sarcoma</item>
+        <item>Solar erythema</item>
+        <item>Solar purpura</item>
+        <item>Solar retinopathy</item>
+        <item>Solar urticaria</item>
+        <item>Solitary angiokeratoma</item>
+        <item>Solitary mastocytoma</item>
+        <item>Solitary neurofibroma</item>
+        <item>Solvent-induced</item>
+        <item>Soot tattoo</item>
+        <item>Sorbic acid-induced</item>
+        <item>Sowda</item>
+        <item>Sparganosis</item>
+        <item>Spider angioma</item>
+        <item>Spider bite</item>
+        <item>Spindle cell lipoma</item>
+        <item>Spiradenoma</item>
+        <item>Splinter hemorrhage</item>
+        <item>Splinter hemorrhage</item>
+        <item>Spotted lunulae</item>
+        <item>Squamous cell carcinoma</item>
+        <item>Squamous cell carcinoma</item>
+        <item>Stasis dermatitis</item>
+        <item>Sternal cleft</item>
+        <item>Steroid acne</item>
+        <item>Steroid folliculitis</item>
+        <item>Steroid rosacea</item>
+        <item>Stingray injury</item>
+        <item>Stippled nails</item>
+        <item>Stomach cancer</item>
+        <item>Strabismus</item>
+        <item>Streptococcal intertrigo</item>
+        <item>Striae gravidarum</item>
+        <item>Sturge–Weber syndrome</item>
+        <item>Subcutaneous emphysema</item>
+        <item>Subungual exostosis</item>
+        <item>Subungual hematoma</item>
+        <item>Sucking blister</item>
+        <item>Sunburn</item>
+        <item>Sunscreen-induced</item>
+        <item>Supernumerary nipple</item>
+        <item>Surfer\'s knots</item>
+        <item>Sweet\'s syndrome</item>
+        <item>Swimmer\'s itch</item>
+        <item>Syphilid</item>
+        <item>Syphilis (Lues)</item>
+        <item>Syringoma</item>
+        <item>Systemic candidiasis</item>
+        <item>Systemic mastocytosis</item>
+        <item>Systemic sarcoidosis</item>
+        <item>Systemic sarcoidosis</item>
+        <item>Sézary syndrome</item>
+        <item>Sézary syndrome</item>
+        <item>Takayasu arteritis</item>
+        <item>Tar acne</item>
+        <item>Tarantula bite</item>
+        <item>Tattoo</item>
+        <item>Tear gas dermatitis</item>
+        <item>Telangiectasia</item>
+        <item>Telogen effluvium</item>
+        <item>Temporal arteritis</item>
+        <item>Tennis toe</item>
+        <item>Teratoma</item>
+        <item>Terry\'s nails</item>
+        <item>Testicular cancer</item>
+        <item>Testicular failure</item>
+        <item>Texier\'s disease</item>
+        <item>Textile dermatitis</item>
+        <item>Thermal burn</item>
+        <item>Thermal keratosis</item>
+        <item>Thiamine deficiency</item>
+        <item>Throat cancer</item>
+        <item>Thymic hypoplasia</item>
+        <item>Thymoma, childhood</item>
+        <item>Thyroglossal duct cyst</item>
+        <item>Thyroid acropachy</item>
+        <item>Thyroid cancer, childhood</item>
+        <item>Thyroid cancer</item>
+        <item>Thyroid cancer</item>
+        <item>Thyroiditis</item>
+        <item>Tick bite</item>
+        <item>Tietz syndrome</item>
+        <item>Tinea barbae</item>
+        <item>Tinea faciei</item>
+        <item>Tinea imbricata (Tokelau)</item>
+        <item>Tinea incognito</item>
+        <item>Tinea manuum</item>
+        <item>Torus palatinus</item>
+        <item>Townes–Brocks syndrome</item>
+        <item>Toxic multinodular goitre</item>
+        <item>Toxicodendron dermatitis</item>
+        <item>Toxoplasmosis</item>
+        <item>Traction alopecia</item>
+        <item>Traumatic alopecia</item>
+        <item>Traumatic asphyxia</item>
+        <item>Traumatic panniculitis</item>
+        <item>Traumatic purpura</item>
+        <item>Tree-induced</item>
+        <item>Trench foot</item>
+        <item>Trichilemmal carcinoma</item>
+        <item>Trichilemmoma</item>
+        <item>Trichinosis</item>
+        <item>Trichoblastic fibroma</item>
+        <item>Trichoblastoma</item>
+        <item>Trichodiscoma</item>
+        <item>Trichofolliculoma</item>
+        <item>Trichomegaly</item>
+        <item>Trichomoniasis</item>
+        <item>Trichomycosis axillaris</item>
+        <item>Trichorrhexis nodosa</item>
+        <item>Trichostasis spinulosa</item>
+        <item>Trichrome vitiligo</item>
+        <item>Tripe palms</item>
+        <item>Tropical acne</item>
+        <item>Tropical immersion foot</item>
+        <item>Trousseau\'s syndrome</item>
+        <item>Trumpeter\'s wart</item>
+        <item>Tuberculoid leprosy</item>
+        <item>Tuberculous cellulitis</item>
+        <item>Tufted angioma</item>
+        <item>Tufted folliculitis</item>
+        <item>Tulip fingers</item>
+        <item>Tumor alopecia</item>
+        <item>Tumor lysis syndrome</item>
+        <item>Tumoral calcinosis</item>
+        <item>Turf toe</item>
+        <item>Turner syndrome</item>
+        <item>Turner syndrome</item>
+        <item>Type 1 Diabetes</item>
+        <item>Type 2 Diabetes</item>
+        <item>UV-sensitive syndrome</item>
+        <item>Ulcerative lichen planus</item>
+        <item>Ulcerative sarcoidosis</item>
+        <item>Ulnar–mammary syndrome</item>
+        <item>Umbilical granuloma</item>
+        <item>Universal angiomatosis</item>
+        <item>Uranium dermatosis</item>
+        <item>Urethral cancer</item>
+        <item>Urethral caruncle</item>
+        <item>Urticaria pigmentosa</item>
+        <item>Urticaria pigmentosa</item>
+        <item>Urticarial vasculitis</item>
+        <item>Uterine sarcoma</item>
+        <item>Uveal melanoma</item>
+        <item>Uveitis</item>
+        <item>Vaginal cancer</item>
+        <item>Van Der Woude syndrome</item>
+        <item>Varicella (Chickenpox)</item>
+        <item>Varicella</item>
+        <item>Variola major (Smallpox)</item>
+        <item>Vasospastic macule</item>
+        <item>Vegetable-induced</item>
+        <item>Venous lake</item>
+        <item>Verruca vulgaris (Wart)</item>
+        <item>Verruciform xanthoma</item>
+        <item>Verrucous carcinoma</item>
+        <item>Verruga peruana</item>
+        <item>Vesicopustular dermatosis</item>
+        <item>Vesicular pemphigoid</item>
+        <item>Vestibular papillomatosis</item>
+        <item>Vibration white finger</item>
+        <item>Vibratory angioedema</item>
+        <item>Viral keratosis</item>
+        <item>Vitamin K deficiency</item>
+        <item>Vitamin K reaction</item>
+        <item>Vitiligo ponctué</item>
+        <item>Vitiligo</item>
+        <item>Vitiligo</item>
+        <item>Vulvar cancer</item>
+        <item>WHIM syndrome</item>
+        <item>Waardenburg syndrome</item>
+        <item>Warfarin necrosis</item>
+        <item>Warm water immersion foot</item>
+        <item>Wasting syndrome</item>
+        <item>Watson syndrome</item>
+        <item>Waxy skin</item>
+        <item>Weathering nodule of ear</item>
+        <item>Wegener granulomatosis</item>
+        <item>West Nile virus infection</item>
+        <item>Westerhof syndrome</item>
+        <item>Wheat warehouse itch</item>
+        <item>White piedra</item>
+        <item>Wildervanck syndrome</item>
+        <item>Wilson–Turner syndrome</item>
+        <item>Woronoff\'s ring</item>
+        <item>Wrestler\'s ear</item>
+        <item>Wyburn–Mason syndrome</item>
+        <item>X-linked hypertrichosis</item>
+        <item>X-linked ichthyosis</item>
+        <item>XXYY genotype</item>
+        <item>Xanthelasma palpebrarum</item>
+        <item>Xanthoma diabeticorum</item>
+        <item>Xanthoma striatum palmare</item>
+        <item>Xanthoma tendinosum</item>
+        <item>Xanthoma tuberosum</item>
+        <item>Xeroderma pigmentosum</item>
+        <item>Xerophthalmia </item>
+        <item>Yellow nail syndrome</item>
+        <item>Zinc deficiency</item>
+        <item>Zirconium granuloma</item>
+        <item>Zoon\'s vulvitis</item>
+        <item>Zoster sine herpete</item>
+        <item>Zosteriform metastasis</item>
+        <item>zoster </item>
+    </string-array>
+</resources>
